@@ -1,12 +1,8 @@
 # Customised Virtual File System (CVFS)
 
 Project Overview:-
-The **Customised Virtual File System (CVFS)** is a Linux-inspired virtual file system implemented in **C language** to understand **Operating System internals**.  
-This project simulates core file system components such as **Boot Block, Super Block, Inodes, File Tables, and User File Descriptor Table (UFDT)** and provides a **command-line shell** for file operations.
-
-The system works entirely in memory and mimics real OS-level file handling concepts.
-
-
+The Customised Virtual File System (CVFS) is a Linux-inspired virtual file system implemented in C language to understand  Operating System internals.  
+This project simulates core file system components such as **Boot Block, Super Block, Inodes, File Tables, and User File Descriptor Table (UFDT)** and provides a command-line shell for file operations.
 
  Objectives:-
 - To understand internal working of file systems
@@ -17,14 +13,14 @@ The system works entirely in memory and mimics real OS-level file handling conce
 
 
  Core Components Implemented:-
-- **Boot Block** – Stores booting information
-- **Super Block** – Maintains total and free inodes
-- **Inode List (DILB)** – Linked list of inodes
-- **File Table** – Maintains read/write offsets and mode
-- **UFDT (User File Descriptor Table)** – Tracks opened files
-- **Custom Shell** – Accepts user commands
+- Boot Block – Stores booting information
+- Super Block – Maintains total and free inodes
+- Inode List (DILB) – Linked list of inodes
+- File Table – Maintains read/write offsets and mode
+- UFDT (User File Descriptor Table) – Tracks opened files
+- Custom Shell – Accepts user commands
 
----
+
 
  Features:-
 - Create regular files with permissions
@@ -38,9 +34,10 @@ The system works entirely in memory and mimics real OS-level file handling conce
 
 
 
- Technologies Used
-- **Programming Language:** C  
-- **Concepts:**  
+ Technologies Used:-
+  Programming Language:- C  
+  
+ Concepts:-
   - Operating System Internals  
   - Virtual File System  
   - Inodes & File Descriptors  
