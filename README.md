@@ -26,9 +26,9 @@ This project simulates core file system components such as **Boot Block, Super B
 - Create regular files with permissions
 - Read and write file data
 - Delete (unlink) files
-- List all files (`ls`)
+- List all files (ls)
 - Display file metadata
-- Manual pages (`man` command)
+- Manual pages (man command)
 - Permission handling (Read / Write / Read + Write)
 - Error handling with custom error codes
 
